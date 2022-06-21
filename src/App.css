@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(#645063, #a588a4, #e9c6e8);
+}
+
+.App-header {
+  background-color: #282c34;
+  border-radius: 0 0 30px 30px;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  margin-top: 10vh;
+  height: 200px;
+  background-color: rgb(167, 12, 115);
+  border-radius: 8px;
+}
